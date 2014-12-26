@@ -1,0 +1,112 @@
+body {
+	margin 0;
+	padding 0;
+    border: 0;
+}
+#canvas {
+    margin 0;
+    padding 0;
+    border: 0;    
+}
+* {
+	font-family: Arial,Helvetica,sans-serif;
+	
+}
+#container {
+	margin 0;
+	padding 0;	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+
+}
+a:hover {
+	text-decoration: none;	
+}
+
+#slider1_container{
+}
+
+#nav {
+	background-color: rgba(200,200,200,.5);
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	padding-top: 4%;
+}
+#nav ul li {
+	margin: 0px 1% 0px 1%;
+	list-style-type: none;
+	display: inline-block;	
+	color:black;
+}
+/* jssor slider arrow navigator skin 08 css */
+/*
+.jssorb08l              (normal)
+.jssorb08r              (normal)
+.jssorb08l:hover        (normal mouseover)
+.jssorb08r:hover        (normal mouseover)
+.jssorb08ldn            (mousedown)
+.jssorb08rdn            (mousedown)
+*/
+.jssorb08l, .jssorb08r, .jssorb08ldn, .jssorb08rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+    background: url(../img/a08.png) no-repeat;
+    overflow:hidden;
+    opacity: .4; filter:alpha(opacity=40);
+}
+.jssorb08l { background-position: -5px -35px; }
+.jssorb08r { background-position: -65px -35px; }
+.jssorb08l:hover { background-position: -5px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssorb08r:hover { background-position: -65px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssorb08ldn { background-position: -5px -35px; opacity: .3; filter:alpha(opacity=30); }
+.jssorb08rdn { background-position: -65px -35px; opacity: .3; filter:alpha(opacity=30); }
+
+.background_screen{
+    position:relative;
+    margin-left:0px;
+    width: 100%;
+}
+
+.background_img {
+    width: inherit;
+}
+
+.revealPic{
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+    background-color:white;
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    width:65px;
+    height:65px;
+    /*making div circular*/
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -ms-border-radius:50%;
+    -khtml-border-radius: 50%;
+}
+
+/* CANVAS */
+canvas {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+/* CANVAS */

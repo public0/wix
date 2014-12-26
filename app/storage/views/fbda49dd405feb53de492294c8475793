@@ -1,0 +1,23 @@
+<?php $__env->startSection('header'); ?>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+<div id="nav">
+    <nav>
+        <ul>
+            <li><a href="">What we do</a></li>
+            <li><a href="">Exteriors</a></li>
+            <li><a href="">Interiors</a></li>
+            <li><a href="">Product Design</a></li>
+            <li><a href="">Animation</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="background_screen">
+    <?php echo HTML::image('images/slider/img4.png', '', array('data-pixelate' => '', 'data-value' => '0.1', 'id'=>"background_img", 'class' => 'background_img')); ?>
+
+    <div class="revealPic background_screen" style="background-image:url('<?php echo URL::asset('images/slider/img4.png'); ?>');"></div>
+</div>
+<div id="show" class="background_img" style="position:fixed;top:0px;left:0px;"></div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

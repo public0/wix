@@ -1,0 +1,347 @@
+[2014-11-23 11:29:02] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "make" namespace.' in /var/www/wix/vendor/symfony/console/Symfony/Component/Console/Application.php:516
+Stack trace:
+#0 /var/www/wix/vendor/symfony/console/Symfony/Component/Console/Application.php(550): Symfony\Component\Console\Application->findNamespace('make')
+#1 /var/www/wix/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('make:controller')
+#2 /var/www/wix/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/wix/artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2014-11-23 11:33:53] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:34:31] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:35:25] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:35:26] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:36:50] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:37:27] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:37:35] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 1' in /var/www/wix/bootstrap/compiled.php:4972
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(4972): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', '/var/www/wix/bo...', 4972, Array)
+#1 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#2 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#3 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-11-23 11:46:24] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'view' not found' in /var/www/wix/app/controllers/IndexController.php:13
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-23 12:24:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-23 12:28:59] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use function return value in write context' in /var/www/wix/app/storage/views/a44c5da725eddbedbe5fd50ce28d1b24:3
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-23 13:36:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-24 23:19:08] production.ERROR: exception 'ErrorException' with message 'htmlentities() expects parameter 1 to be string, array given' in /var/www/wix/vendor/laravel/framework/src/Illuminate/Support/helpers.php:512
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'htmlentities() ...', '/var/www/wix/ve...', 512, Array)
+#1 /var/www/wix/vendor/laravel/framework/src/Illuminate/Support/helpers.php(512): htmlentities(Array, 3, 'UTF-8', false)
+#2 /var/www/wix/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php(339): e(Array)
+#3 /var/www/wix/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php(320): Illuminate\Html\HtmlBuilder->attributeElement('alt', Array)
+#4 /var/www/wix/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php(97): Illuminate\Html\HtmlBuilder->attributes(Array)
+#5 /var/www/wix/bootstrap/compiled.php(3240): Illuminate\Html\HtmlBuilder->image('images/slider/i...', Array)
+#6 /var/www/wix/app/storage/views/a44c5da725eddbedbe5fd50ce28d1b24(28): Illuminate\Support\Facades\Facade::__callStatic('image', Array)
+#7 /var/www/wix/app/storage/views/a44c5da725eddbedbe5fd50ce28d1b24(28): Illuminate\Support\Facades\HTML::image('images/slider/i...', Array)
+#8 /var/www/wix/bootstrap/compiled.php(9800): include('/var/www/wix/ap...')
+#9 /var/www/wix/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/wix/ap...', Array)
+#10 /var/www/wix/bootstrap/compiled.php(9678): Illuminate\View\Engines\CompilerEngine->get('/var/www/wix/ap...', Array)
+#11 /var/www/wix/bootstrap/compiled.php(9665): Illuminate\View\View->getContents()
+#12 /var/www/wix/bootstrap/compiled.php(9656): Illuminate\View\View->renderContents()
+#13 /var/www/wix/bootstrap/compiled.php(10358): Illuminate\View\View->render()
+#14 /var/www/wix/bootstrap/compiled.php(9888): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#15 /var/www/wix/bootstrap/compiled.php(5191): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#16 /var/www/wix/bootstrap/compiled.php(5000): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#17 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#18 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#23 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#24 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#25 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#26 {main}
+
+Next exception 'ErrorException' with message 'htmlentities() expects parameter 1 to be string, array given (View: /var/www/wix/app/views/index/index.blade.php)' in /var/www/wix/vendor/laravel/framework/src/Illuminate/Support/helpers.php:512
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(9802): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 /var/www/wix/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/wix/ap...', Array)
+#2 /var/www/wix/bootstrap/compiled.php(9678): Illuminate\View\Engines\CompilerEngine->get('/var/www/wix/ap...', Array)
+#3 /var/www/wix/bootstrap/compiled.php(9665): Illuminate\View\View->getContents()
+#4 /var/www/wix/bootstrap/compiled.php(9656): Illuminate\View\View->renderContents()
+#5 /var/www/wix/bootstrap/compiled.php(10358): Illuminate\View\View->render()
+#6 /var/www/wix/bootstrap/compiled.php(9888): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /var/www/wix/bootstrap/compiled.php(5191): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /var/www/wix/bootstrap/compiled.php(5000): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2014-11-24 23:21:09] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-24 23:21:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-24 23:22:13] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-24 23:22:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-11-24 23:29:58] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-12-06 13:54:27] production.ERROR: exception 'InvalidArgumentException' with message 'View [index2.index] not found.' in /var/www/wix/bootstrap/compiled.php:9431
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(9404): Illuminate\View\FileViewFinder->findInPaths('index2.index', Array)
+#1 /var/www/wix/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('index2.index')
+#2 /var/www/wix/bootstrap/compiled.php(3240): Illuminate\View\Factory->make('index2.index', Array)
+#3 /var/www/wix/app/controllers/IndexController.php(13): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /var/www/wix/app/controllers/IndexController.php(13): Illuminate\Support\Facades\View::make('index2.index', Array)
+#5 [internal function]: IndexController->index()
+#6 /var/www/wix/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#7 /var/www/wix/bootstrap/compiled.php(5778): Illuminate\Routing\Controller->callAction('index', Array)
+#8 /var/www/wix/bootstrap/compiled.php(5766): Illuminate\Routing\ControllerDispatcher->call(Object(IndexController), Object(Illuminate\Routing\Route), 'index')
+#9 /var/www/wix/bootstrap/compiled.php(4973): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'IndexController', 'index')
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /var/www/wix/bootstrap/compiled.php(5331): call_user_func_array(Object(Closure), Array)
+#12 /var/www/wix/bootstrap/compiled.php(4998): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-12-06 14:38:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-12-06 14:38:35] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-12-06 20:11:11] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /var/www/wix/bootstrap/compiled.php:5682
+Stack trace:
+#0 /var/www/wix/bootstrap/compiled.php(5006): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /var/www/wix/bootstrap/compiled.php(4994): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /var/www/wix/bootstrap/compiled.php(4986): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /var/www/wix/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /var/www/wix/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /var/www/wix/bootstrap/compiled.php(7746): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /var/www/wix/bootstrap/compiled.php(8353): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /var/www/wix/bootstrap/compiled.php(8300): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /var/www/wix/bootstrap/compiled.php(10962): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /var/www/wix/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /var/www/wix/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-12-06 21:15:15] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '=', expecting ')'' in /var/www/wix/app/storage/views/fbda49dd405feb53de492294c8475793:17
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

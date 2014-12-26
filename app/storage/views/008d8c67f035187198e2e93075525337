@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<?php echo HTML::style('css/bootstrap.min.css'); ?>
+
+    	<?php echo HTML::style('css/main.css'); ?>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wix</title>
+    </head>
+    <body>
+        <?php $__env->startSection('header'); ?>
+        <?php $__env->stopSection(); ?>
+        <div id="container">
+            <?php echo $__env->yieldContent('content'); ?>
+        </div>
+    <?php echo HTML::script('js/jquery-2.1.1.min.js'); ?>
+
+    <?php echo HTML::script('js/bootstrap.min.js'); ?>
+
+    <?php /* HTML::script('js/jssor.js') */ ?>
+    <?php /* HTML::script('js/jssor.slider.mini.js') */ ?>
+    <?php /* HTML::script('js/pixelate.min.js') */ ?>
+
+<!--    
+    <script type="text/javascript" src="https://rawgit.com/GianlucaGuarini/vague.js/master/Vague.js"></script>
+    <script type="text/javascript" src="http://close-pixelate.desandro.com/close-pixelate.js"></script>
+-->
+    <?php echo HTML::script('js/main.js'); ?>
+
+    </body>
+</html>
